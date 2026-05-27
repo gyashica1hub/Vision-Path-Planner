@@ -40,10 +40,6 @@ Upload any image — a hand-drawn maze, an architectural floorplan, a 3D rendere
 | Manhattan | `\|dr\| + \|dc\|` | 4-direction grids |
 | Euclidean | `√(dr²+dc²)` | Free movement |
 | Chebyshev | `max(\|dr\|,\|dc\|)` | 8-direction grids |
-| Octile | `max + 0.414·min` | Most accurate 8-dir |
-| Dijkstra (h=0) | `0` | Uniform cost search |
-
-**Weighted A\* (W=2)** — deliberately trades optimality for speed
 
 ### Planning Under Uncertainty
 **MDP + Bellman Value Iteration**
